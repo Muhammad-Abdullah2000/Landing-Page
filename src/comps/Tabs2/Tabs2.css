@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#Tabs1 {
+
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+.tabsV2Container1 {
+
+    padding: 1rem;
+    border-radius: 5px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.btnContainer1 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    
+
+    cursor: pointer;
+
+}
+
+.tabs1 {
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+    width: 10.8rem;
+    height: 3rem;
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
+.activeTab1 {
+    color: crimson;
+    border-bottom: 3px solid crimson;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #Tabs1 {
+     
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .tabsV2Container1 {
+     
+        width: 100%;
+        margin: auto;
+    }
+
+    .btnContainer1 {
+      
+        width: 70%;
+        margin: auto;
+    }
+
+    .tabs1 {
+      
+        font-size: 10px;
+
+    }
+}

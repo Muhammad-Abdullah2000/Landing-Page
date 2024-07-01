@@ -1,0 +1,38 @@
+.slider {
+    height: 10vh;
+    margin-top: 10px;
+   
+}
+
+.mySwiper {
+
+    height: 10vh;
+    width: 70%;
+}
+
+#simg {
+    width: 150px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .mySwiper {
+
+        width: 100%;
+      
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 2px;
+
+    }
+
+    #simg {
+        width: 70px;
+        margin-top: 20px;
+        margin-left: -5px;
+    }
+
+}

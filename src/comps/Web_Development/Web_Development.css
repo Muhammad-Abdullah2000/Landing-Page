@@ -1,0 +1,82 @@
+#website{
+    background-color: rgb(0, 0, 0);
+    
+    height: 90vh;
+}
+
+.wcards{
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.wcard{
+    border: 2px solid red;
+    width: 35%;
+    height: 70vh;
+    border-radius: 10px;
+    color: white;
+}
+
+.top{
+    
+    width: 90%;
+    margin: 10px auto;
+    height: 15vh;
+}
+
+.mtop{
+   
+    width: 90%;
+    margin: 5px auto;
+    height: 30vh;
+    overflow-y: scroll;
+}
+
+.mbottom{
+   
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mbottom button {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.bottom{
+ 
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.cardtxt1{
+    
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cardtxt2{
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}

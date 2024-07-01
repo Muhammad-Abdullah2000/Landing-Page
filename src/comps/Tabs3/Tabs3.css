@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* #Tabs1 {
+
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+.tabsV2Container1 {
+
+    padding: 1rem;
+    border-radius: 5px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.btnContainer1 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    
+
+    cursor: pointer;
+
+}
+
+.tabs1 {
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+    width: 10.8rem;
+    height: 3rem;
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
+.activeTab1 {
+    color: crimson;
+    border-bottom: 3px solid crimson;
+} */
+
+
+
+
+
+.hero-aria {
+
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-aria .circle {
+    height: 26rem;
+    width: 26rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    animation: move 10s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-aria .circle span {
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    color: black;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+
+}
+
+.hero-aria .circle span:hover {
+    background-color: black;
+    color: white;
+}
+
+.hero-aria .circle span:nth-child(1) {
+    left: calc(50% - 2rem);
+    top: -2rem;
+}
+
+.hero-aria .circle span:nth-child(2) {
+    top: calc(50% - 2rem);
+    right: -2rem;
+}
+
+.hero-aria .circle span:nth-child(3) {
+    top: calc(50% - 2rem);
+    left: -2rem;
+}
+
+.hero-aria .circle span:nth-child(4) {
+    left: calc(50% - 2rem);
+    bottom: -2rem;
+}
+
+.content {
+
+    height: 55vh;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.content p {
+    width: 300px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .hero-aria {
+
+        height: 50vh;
+    }
+
+    .circle {
+
+        height: 40vh !important;
+        width: 80% !important;
+    }
+
+    .circle span {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .content {
+
+        height: 40vh !important;
+
+
+    }
+
+
+
+}
